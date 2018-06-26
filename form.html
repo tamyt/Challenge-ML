@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<form action="/user" method="POST">
+	<fieldset>
+	<legend>Personal information</legend><br>
+	<label for="name">Name:* </label><input type="text" name="firstn" required id="names" maxlength="30"><br><br>
+    <label for="surname">Surname:* </label><input type="text" name="surname"  required="required" id="surs" maxlength="30"><br><br>
+	<label for="tel">Telephone:* </label><input type="number" name="mobile" required="required" id= "telephone"><br><br>
+	<label for="email">Email:*  </label><input type="email" name="email" required="required" id="valemail" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" >  
+             <br><br><br>
+		<input type="submit" value="Submit">
+		<br><br>
+		</fieldset>
+    </form>
+</body>
+
+</html>

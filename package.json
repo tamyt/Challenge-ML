@@ -1,0 +1,19 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "file:node_modules/body-parser",
+    "bootstrap": "^4.0.0-alpha.6",
+    "express": "^4.16.3",
+    "express-validator": "^5.2.0",
+    "pug": "^2.0.3"
+  }
+}

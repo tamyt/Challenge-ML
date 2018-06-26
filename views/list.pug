@@ -1,0 +1,48 @@
+doctype html
+html(lang="eng")
+   head
+    title list
+    link(rel="stylesheet" href="/bootstrap/bootstrap.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    script(src="../js/pug.js")
+   body
+    div(class="container")
+    h1 lista
+    input(class="form-control" id="myInput" type="text" placeholder="Search..")
+    br
+    table(class="table table-bordered table-striped")
+      thead
+       tr
+        th Firstname
+        th Lastname
+        th Telephone
+        th Email
+      tbody(id="myTable")
+       tr
+        td !{allObjects[0].firstn}
+        td !{allObjects[0].surname}
+        td !{allObjects[0].mobile}
+        td !{allObjects[0].email}
+       tr
+        td #{allObjects[1].firstn}
+        td #{allObjects[1].surname}
+        td #{allObjects[1].mobile}
+        td #{allObjects[1].email}
+       tr
+        td #{allObjects[2].firstn}
+        td #{allObjects[2].surname}
+        td #{allObjects[2].mobile}
+        td #{allObjects[2].email}
+       tr
+        td #{allObjects[3].firstn}
+        td #{allObjects[3].surname}
+        td #{allObjects[3].mobile}
+        td #{allObjects[3].email}
+       tr
+        td #{allObjects[4].firstn}
+        td #{allObjects[4].surname}
+        td #{allObjects[4].mobile}
+        td #{allObjects[4].email}
+
+     
+    
